@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="UserControls\ApplicationForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Dashboard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\EditForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\ForgotPass.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Payroll.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Profile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Signature.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\UserApproval.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="UserControls\ApplicationForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Dashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\EditForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\ForgotPass.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Payroll.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Profile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Signature.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\UserApproval.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

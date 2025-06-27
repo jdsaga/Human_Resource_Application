@@ -1,0 +1,132 @@
+﻿<UserControl x:Class="Human_Resources_Management_System.UserControls.SignUp"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Human_Resources_Management_System.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <!-- Login Content -->
+    
+        <!--<StackPanel 
+            VerticalAlignment="Center" 
+            HorizontalAlignment="Center">
+
+            <TextBlock FontSize="40" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" Margin="0,0,0,0">Create your account</TextBlock>
+
+            <TextBlock FontSize="15" >Username</TextBlock>
+            <TextBox x:Name="SignupUsername" Margin="0,6,6,0"></TextBox>
+
+            <TextBlock FontSize="15" >Password</TextBlock>
+            <PasswordBox x:Name="SignupPassword" Margin="0,6,6,0"></PasswordBox>
+
+            <TextBlock FontSize="15" >Confirm Password</TextBlock>
+            <PasswordBox x:Name="SignupCPassword" Margin="0,6,6,6"></PasswordBox>
+
+            <Button Padding="5,20,5,20" Click="SignUpBtn_Click" >SIGN UP</Button>
+            <TextBlock TextAlignment="Center" FontSize="22" Foreground="#383838"><Run Text="Already have an account? "/><Hyperlink Click="LoginHyperlink_Click"><Run Text="Login"/></Hyperlink></TextBlock>
+
+        </StackPanel>-->
+    <Grid>
+        <Grid.Background>
+            <ImageBrush x:Name="BackgroundPicture" Stretch="UniformToFill" />
+        </Grid.Background>
+
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,150">
+
+            <TextBlock FontSize="40" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" Margin="0,0,0,0" Text="Create your account"   FontFamily="Segoe UI Light"/>
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0">
+                <StackPanel Orientation="Vertical" Margin="10">
+                    <TextBlock FontSize="20"   FontFamily="Segoe UI Light">Last Name</TextBlock>
+                    <TextBox x:Name="SignUpLastName" Width="200" Height="35" MaxLength="50" PreviewTextInput="Character_PreviewTextInput" FontSize="30" FontFamily="Segoe UI Light"/>
+                    <TextBlock Name="LastNameErrorMessage" Foreground="Red" Visibility="Collapsed"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" Margin="10">
+                    <TextBlock FontSize="20"   FontFamily="Segoe UI Light">First Name</TextBlock>
+                    <TextBox x:Name="SignUpFirstName" Width="200" Height="35" MaxLength="50" PreviewTextInput="Character_PreviewTextInput" FontSize="30" FontFamily="Segoe UI Light"/>
+                    <TextBlock Name="FirstNameErrorMessage" Foreground="Red" Visibility="Collapsed"/>
+                </StackPanel>
+               
+              
+               
+                <StackPanel Orientation="Vertical"  Margin="15,10,0,0">
+                    <TextBlock FontSize="20"   FontFamily="Segoe UI Light">Middle Name</TextBlock>
+                    <TextBox x:Name="SignUpMiddleName" Width="100" Height="35" MaxLength="50" PreviewTextInput="Character_PreviewTextInput" FontSize="30" FontFamily="Segoe UI Light" Margin="0,0,0,0"/>
+                    <TextBlock Name="MiddleNameErrorMessage" Foreground="Red" Visibility="Collapsed"/>
+                </StackPanel>
+                
+            </StackPanel>
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="13,0,0,0">
+                <StackPanel Orientation="Horizontal" Margin="10">
+                    <StackPanel Orientation="Vertical" Margin="10">
+                        <TextBlock FontSize="20"   FontFamily="Segoe UI Light">Email</TextBlock>
+                        <TextBox x:Name="SignUpEmail" Width="250" Height="35" MaxLength="100" TextChanged="SignUpEmail_TextChanged" FontSize="30" FontFamily="Segoe UI Light"/>
+                        <!-- Error Message for Invalid Email -->
+                        <TextBlock Name="EmailErrorMessage" Foreground="Red" Visibility="Collapsed" Margin="5" />
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Margin="40,10,0,0">
+                        <TextBlock FontSize="20"   FontFamily="Segoe UI Light">Contact No.</TextBlock>
+                        <TextBox x:Name="SignUpContactNo" Width="250" Height="35" MaxLength="11" PreviewTextInput="Number_PreviewTextInput" FontSize="30" FontFamily="Segoe UI Light"/>
+                        <!-- Error Message for Invalid Contact Number -->
+                        <TextBlock Name="ContactNumberErrorMessage" Foreground="Red" Visibility="Collapsed" Margin="5" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Margin="20,0,0,0">
+                        <TextBlock FontSize="20"   FontFamily="Segoe UI Light">Username</TextBlock>
+                        <TextBox x:Name="SignupUsername" Margin="0,6,6,0" Height="35" Width="250" MaxLength="20" PreviewTextInput="Username_PreviewTextInput" FontSize="30" FontFamily="Segoe UI Light"></TextBox>
+                        <!-- Error Message for Invalid Contact Number -->
+                        <TextBlock Name="UsernameErrorMessage" Foreground="Red" Visibility="Collapsed" Margin="5" />
+                    </StackPanel>
+                  
+                    <StackPanel Margin="40,0,0,0">
+                        <StackPanel Orientation="Vertical">
+                            
+                            <!-- Password Label -->
+                            <TextBlock FontSize="20" FontFamily="Segoe UI Light">Password</TextBlock>
+                            <StackPanel Orientation="Horizontal">
+                                <!-- Password Box -->
+                                <PasswordBox x:Name="SignupPassword" Margin="0,6,16,10" Height="35" Width="250" MaxLength="20" FontSize="30" FontFamily="Segoe UI Light"/>
+
+                                <!-- Question Mark Icon for Help (Click Event) -->
+                                <Image x:Name="PasswordInfoIcon" Source="C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\Images\Black_Question_Mark.png" Width="20" Height="20" 
+Margin="5" Cursor="Hand"
+MouseLeftButtonUp="PasswordInfoIcon_MouseLeftButtonUp" HorizontalAlignment="Left"/>
+                            </StackPanel>
+                           
+
+                            <!-- Password Requirements Text (initially collapsed) -->
+                            <TextBlock x:Name="PasswordErrorMessage" Visibility="Collapsed" Foreground="Red" Margin="5">
+        <Run Text="Password must contain at least one uppercase letter."/>
+        <LineBreak/>
+        <Run Text="one lowercase letter, one number, and"/>
+        <LineBreak/>
+        <Run Text="one special character."/>
+       
+                            </TextBlock>
+                        </StackPanel>
+
+
+                        <StackPanel>
+                            <TextBlock FontSize="20"   FontFamily="Segoe UI Light" >Confirm Password</TextBlock>
+                            <PasswordBox x:Name="SignupCPassword" Margin="0,6,50,16" Height="35" Width="250" MaxLength="20" FontSize="30" FontFamily="Segoe UI Light"></PasswordBox>
+                            <TextBlock Name="CPasswordErrorMessage" Foreground="Red" Visibility="Collapsed" Margin="5" />
+                        </StackPanel>
+                        
+                    </StackPanel>
+                </StackPanel>
+
+
+            </StackPanel>
+
+
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,30">
+            <Button Padding="20,0,20,0" Click="SignUpBtn_Click" Height="50" FontSize="25"   FontFamily="Segoe UI Light">SIGN UP</Button>
+            <TextBlock TextAlignment="Center" FontSize="20"  FontFamily="Segoe UI Light" Foreground="#383838"><Run Text="Already have an account? "/><Hyperlink Click="LoginHyperlink_Click"><Run Text="Login"/></Hyperlink></TextBlock>
+        </StackPanel>
+    </Grid>
+</UserControl>

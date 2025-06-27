@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="Human_Resources_Management_System.UserControls.ForgotPass"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Human_Resources_Management_System.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush x:Name="BackgroundPicture"  Stretch="UniformToFill" />
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,10,0,0" >
+                <Image x:Name="LogoImage" Width="150" Height="200"/>
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock 
+                  Foreground="Black"
+                  FontSize="35"
+                        FontFamily="Segoe UI Light"
+                  >Reed Elsevier
+                    </TextBlock>
+                </StackPanel>
+
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+
+           
+            <StackPanel>
+                <StackPanel Margin="100,0,0,0">
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                        <TextBlock FontSize="20" Margin="0,0,10,0"   FontFamily="Segoe UI Light">Email</TextBlock>
+                        <TextBox x:Name="emailTextBox" Height="40" FontSize="30" Width="350"   FontFamily="Segoe UI Light"/>
+                    </StackPanel>
+                    <StackPanel Margin="11,0,0,0">
+                        <StackPanel Orientation="Horizontal" Margin="0">
+                            <TextBlock FontSize="20" Margin="0,0,10,0"   FontFamily="Segoe UI Light">OTP</TextBlock>
+                            <TextBox x:Name="otpTextbox" Height="40" FontSize="30" Width="350" FontFamily="Segoe UI Light"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,20,180,0" HorizontalAlignment="Center">
+                            <TextBlock FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,20,0"  FontFamily="Segoe UI Light"> SEND OTP</TextBlock>
+                            <Button FontSize="15" Height="50" Width="100" Background="#FFDDDDDD"  Click="Send_OTPBtn" Content="Send" Margin="0,10,0,0"  FontFamily="Segoe UI Light"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                
+                
+                
+            </StackPanel>
+         
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="23,200,0,0">
+                <TextBlock FontSize="20" Margin="0,0,10,0"   FontFamily="Segoe UI Light"> New Password</TextBlock>
+                <PasswordBox x:Name="newpasswordTextBox" Height="40" FontSize="30" Width="350" FontFamily="Segoe UI Light"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="23,255,0,0"> 
+                <StackPanel Orientation="Vertical">
+                    <TextBlock FontSize="20" Margin="0,0,10,0"   FontFamily="Segoe UI Light">Confirm</TextBlock>
+                    <TextBlock FontSize="20" Margin="0,0,10,0"   FontFamily="Segoe UI Light">New Password</TextBlock>
+                </StackPanel>
+                <PasswordBox x:Name="confirmNewPassword" Height="40" FontSize="30" Width="350" FontFamily="Segoe UI Light"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,20,20" >
+                <Button FontSize="15" Margin="0,0,0,20" Height="50" Background="#FFDDDDDD"  Click="BackForgotPass_Click"   FontFamily="Segoe UI Light">Back</Button>
+                <Button FontSize="15" Height="50" Background="#FFDDDDDD"  Click="SaveForgotPass_Click" Content="Save Changes"   FontFamily="Segoe UI Light" />
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</UserControl>

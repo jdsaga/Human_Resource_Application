@@ -1,0 +1,97 @@
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Human Resources Management System.exe
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Human Resources Management System.deps.json
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Human Resources Management System.runtimeconfig.json
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Human Resources Management System.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Human Resources Management System.pdb
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\DnsClient.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\MongoDB.Bson.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\MongoDB.Driver.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SharpCompress.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SharpVectors.Converters.Wpf.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SharpVectors.Core.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SharpVectors.Css.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SharpVectors.Dom.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SharpVectors.Model.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SharpVectors.Rendering.Gdi.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SharpVectors.Rendering.Wpf.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SharpVectors.Runtime.Wpf.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Snappier.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System.csproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\HomeDesign.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\LoginAndSignup.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\ApplicationForm.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\Dashboard.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\EditForm.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\Login.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\Payroll.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\Profile.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\Signature.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\SignUp.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\SupportContacts.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System_MarkupCompile.cache
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System_MarkupCompile.lref
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\HomeDesign.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\LoginAndSignup.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\ApplicationForm.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\Dashboard.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\EditForm.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\Login.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\Payroll.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\Profile.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\Signature.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\SignUp.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\SupportContacts.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System.g.resources
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System.sourcelink.json
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Re.7CA09FA1.Up2Date
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\refint\Human Resources Management System.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System.pdb
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System.genruntimeconfig.cache
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\ref\Human Resources Management System.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\ForgotPass.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\ForgotPass.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\PdfSharp.Charting.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\PdfSharp.Quality.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\PdfSharp.Snippets.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\PdfSharp.System.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\PdfSharp.WPFonts.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\PdfSharp.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\PdfSharpCore.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\ICSharpCode.SharpZipLib.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SixLabors.Fonts.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\SixLabors.ImageSharp.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\de\PdfSharp.Charting.resources.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\de\PdfSharp.resources.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\de\PdfSharpCore.resources.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\PayrollInput.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\PayslipViewer.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\Human Resources Management System_Content.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\App.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\PayrollInput.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\PayslipViewer.baml
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\UserApproval.g.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Debug\net8.0-windows\UserControls\UserApproval.baml

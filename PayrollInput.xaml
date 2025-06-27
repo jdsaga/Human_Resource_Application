@@ -1,0 +1,26 @@
+﻿<Window x:Class="Human_Resources_Management_System.PayrollInput"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Human_Resources_Management_System"
+        mc:Ignorable="d"
+        Title="PayrollInput" Height="400" Width="400">
+    <Grid MaxWidth="400" MaxHeight="400">
+        <StackPanel Margin="10" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <!-- Input for Attendance Days -->
+            <TextBlock Text="Enter Attendance Days:" Margin="0,5"/>
+            <TextBox x:Name="AttendanceDaysInput" Width="200" Margin="0,5"/>
+
+            <!-- Input for Overtime Hours -->
+            <TextBlock Text="Enter Overtime Hours:" Margin="0,5"/>
+            <TextBox x:Name="OvertimeHoursInput" Width="200" Margin="0,5"/>
+
+            <!-- Calculate Button -->
+            <Button Content="Calculate Payslip" Width="200" Margin="0,10" Click="CalculatePayslip_Click"/>
+
+            <!-- Display Calculated Result -->
+            <TextBlock x:Name="ResultBlock" Text="Result will be displayed here" Margin="0,5"/>
+        </StackPanel>
+    </Grid>
+</Window>

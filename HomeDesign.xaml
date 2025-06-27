@@ -1,0 +1,139 @@
+﻿<Window x:Class="Human_Resources_Management_System.HomeDesign"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Human_Resources_Management_System.UserControls"
+        xmlns:svgc="http://sharpvectors.codeplex.com/svgc/"
+     
+        mc:Ignorable="d"
+        Title="HomeDesign" Height="750" Width="1500" WindowStartupLocation="CenterScreen" Icon="/realcompanylogo.png" ResizeMode="NoResize">
+
+    <!-- Custom Button Style to lessen code redundacy-->
+    <Window.Resources>
+        <Style x:Key="SideMenuButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#343030"/>
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="Foreground" Value="White"/>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Black"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid Background="#343030">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.30*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <StackPanel >
+                <Image x:Name="realLogo"  Source="C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\Images/realcompanylogo.png" Width="150" Height="65" Margin="10,50,10,10" />
+
+                <TextBlock HorizontalAlignment="Center" Foreground="#DCD1D1" FontSize="25"   FontFamily="Segoe UI Light"> Reed Elsevier
+                </TextBlock>
+
+                <TextBlock Foreground="#AAAAAA" HorizontalAlignment="Left" Margin="20,20" FontSize="20"   FontFamily="Segoe UI Light">Main Menu</TextBlock>
+
+                <Button x:Name="DashboardBtn" Margin="0,0,0,0" Style="{StaticResource SideMenuButtonStyle}" Click="DashboardBtn_Click" Height="60">
+                    <StackPanel  Orientation="Horizontal" Margin="0,0,10,0">
+                        <Image  x:Name="DashBoardIcon" Source="C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\Images\OrangeDashboardIcon.png" Width="20" Height="20"/>
+                        <TextBlock Text="Dashboard" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="25" FontFamily="Segoe UI Light"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="ApplicationFormBtn" Style="{StaticResource SideMenuButtonStyle}" Click="ApplicationFormBtn_Click" Height="60">
+                    <StackPanel Orientation="Horizontal" Margin="55,0,0,0">
+                        <Image  x:Name="AppFormIcon" Source="C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\Images\OrangeApplicationIcon.png" Width="20" Height="20"/>
+                        <TextBlock Text="Application Form" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="25" FontFamily="Segoe UI Light"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="ProfileBtn" Margin="0,0,0,0" Style="{StaticResource SideMenuButtonStyle}" Click="ProfileBtn_Click" Height="60">
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,0">
+                        <Image  x:Name="ViewProfileIcon" Source="C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\Images\OrangeProfileIcon.png" Width="20" Height="20"/>
+                        <TextBlock Text="View Profile" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="25" FontFamily="Segoe UI Light"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="PayrollBtn" Margin="0,0,0,0" Style="{StaticResource SideMenuButtonStyle}" Click="PayrollBtn_Click" Height="60" >
+                    <StackPanel  Orientation="Horizontal" Margin="0,0,50,0">
+                        <Image  x:Name="PayrollIcon" Source="C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\Images\OrangeDashboardIcon.png" Width="20" Height="20"/>
+                        <TextBlock Text="Payroll" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="25" FontFamily="Segoe UI Light"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="ApprovalBtn" Margin="0,0,0,0" Style="{StaticResource SideMenuButtonStyle}" Click="ApprovalBtn_Click" Height="60" >
+                    <StackPanel  Orientation="Horizontal" Margin="0,0,30,0">
+                        <Image  x:Name="ApprovalIcon" Source="C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\Images\Approvallll-icon-NOBG.png" Width="20" Height="20"/>
+                        <TextBlock Text="Approval" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="25" FontFamily="Segoe UI Light"/>
+                    </StackPanel>
+                </Button>
+
+                <TextBlock Foreground="#AAAAAA" HorizontalAlignment="Left" Margin="20,20" FontSize="20"   FontFamily="Segoe UI Light">Tools</TextBlock>
+
+                <Button x:Name="SupportBtn" Margin="0,0,0,0" Style="{StaticResource SideMenuButtonStyle}" Click="SupportBtn_Click" Height="60" >
+                    <StackPanel Orientation="Horizontal" Margin="0,0,50,0">
+                        <Image  x:Name="SupportIcon" Source="C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\Images\OrangeSupportIcon.png" Width="20" Height="20"/>
+                        <TextBlock Text="Support" Margin="5,0,0,0" VerticalAlignment="Center" FontSize="25" FontFamily="Segoe UI Light"/>
+                    </StackPanel>
+                </Button>
+                <Button x:Name="ExitBtn" Margin="0,0,0,0" Style="{StaticResource SideMenuButtonStyle}" Click="SignOutBtn_Click" Height="60">
+                    <StackPanel Margin="0,0,30,0">
+                        <TextBlock FontSize="25" FontFamily="Segoe UI Light">Sign Out</TextBlock>
+                    </StackPanel>
+                </Button>
+
+            </StackPanel>
+
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="34*"/>
+                <ColumnDefinition Width="581*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border  BorderBrush="#5F5F5F" BorderThickness="2,0,0,0" Grid.ColumnSpan="2" >
+
+                <StackPanel>
+                    <Border CornerRadius="5" Height="30" Width="150" Margin="0,20,30,20" Background="#484545" 
+        HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Column="1">
+                        <Grid>
+                            <!-- Small Ellipse for the icon -->
+                            <Ellipse Width="20" Height="20" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="5,0,0,0"
+                 Stroke="White" StrokeThickness="1">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="{Binding ProfileImage, Converter={StaticResource ByteArrayToImageConverter}}" Stretch="UniformToFill" />
+                                </Ellipse.Fill>
+                            </Ellipse>
+
+                            <!-- TextBlock for the username -->
+                            <TextBlock x:Name="UsernameText" Text="{Binding Username, StringFormat='Hello!, {0}'}" Foreground="White" VerticalAlignment="Bottom" 
+                   HorizontalAlignment="Left" Margin="30,0,0,7" />
+                        </Grid>
+                    </Border>
+
+                    <!--Used for passing Username to the view profile -->
+                    <TextBlock x:Name="Usernametoprofile" Text="{Binding Username}" Visibility="Collapsed"></TextBlock>
+
+                    <Border CornerRadius="5" Margin="30,10,30,15" Height="600" Background="#484545" Grid.ColumnSpan="2" >
+
+                        <ContentControl x:Name="ContentDisplay" />
+
+
+                    </Border>
+                </StackPanel>
+
+
+            </Border>
+
+
+        </Grid>
+
+    </Grid>
+</Window>

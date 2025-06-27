@@ -1,0 +1,11 @@
+﻿<Application x:Class="Human_Resources_Management_System.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Human_Resources_Management_System"
+             StartupUri="LoginAndSignup.xaml">
+    <Application.Resources>
+        <local:ByteArrayToImageConverter x:Key="ByteArrayToImageConverter" 
+                                         xmlns:local="clr-namespace:Human_Resources_Management_System.Converters" />
+
+    </Application.Resources>
+</Application>

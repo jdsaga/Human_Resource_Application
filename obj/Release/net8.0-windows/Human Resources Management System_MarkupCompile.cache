@@ -1,0 +1,20 @@
+﻿Human Resources Management System
+
+
+winexe
+C#
+.cs
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\obj\Release\net8.0-windows\
+Human_Resources_Management_System
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+C:\Users\lenovo\source\repos\Human Resources Management System\Human Resources Management System\App.xaml
+14-1401032268
+3-1896177087
+21-2088978852
+232596584075
+HomeDesign.xaml;LoginAndSignup.xaml;PayrollInput.xaml;PayslipViewer.xaml;UserControls\ApplicationForm.xaml;UserControls\Dashboard.xaml;UserControls\EditForm.xaml;UserControls\ForgotPass.xaml;UserControls\Login.xaml;UserControls\Payroll.xaml;UserControls\Profile.xaml;UserControls\Signature.xaml;UserControls\SignUp.xaml;UserControls\SupportContacts.xaml;
+
+True
+

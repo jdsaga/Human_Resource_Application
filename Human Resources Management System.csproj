@@ -1,0 +1,125 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Human_Resources_Management_System</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\application form.svg" />
+    <None Remove="Images\Approval-Icon-Real-NOBG.png" />
+    <None Remove="Images\Approvallll-icon-NOBG.png" />
+    <None Remove="Images\Black_question_mark.png" />
+    <None Remove="Images\Calendar-Icon.png" />
+    <None Remove="Images\companylogo.svg" />
+    <None Remove="Images\Contact-Support-Icon.png" />
+    <None Remove="Images\dashboard 1.svg" />
+    <None Remove="Images\Google-Map-Icon.png" />
+    <None Remove="Images\Imageperson.webp" />
+    <None Remove="Images\ImagePersonIcon.svg" />
+    <None Remove="Images\office_GrayandWhite colored.jpg" />
+    <None Remove="Images\OrangeApplicationIcon.png" />
+    <None Remove="Images\OrangeDashboardIcon.png" />
+    <None Remove="Images\OrangeProfileIcon.png" />
+    <None Remove="Images\OrangeSupportIcon.png" />
+    <None Remove="Images\profile.svg" />
+    <None Remove="Images\realcompanylogo.png" />
+    <None Remove="Images\support.svg" />
+    <None Remove="Images\Telephone-Support.png" />
+    <None Remove="Images\TrashBin.png" />
+    <None Remove="Images\wallpaper.jpg" />
+    <None Remove="realcompanylogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\OrangeSupportIcon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2957.106" />
+    <PackageReference Include="MongoDB.Driver" Version="3.1.0" />
+    <PackageReference Include="PDFsharp" Version="6.1.1" />
+    <PackageReference Include="PdfSharpCore" Version="1.3.65" />
+    <PackageReference Include="SharpVectors" Version="1.8.4.2" />
+    <PackageReference Include="SharpVectors.Wpf" Version="1.8.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\application form.svg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Approval-Icon-Real-NOBG.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Approvallll-icon-NOBG.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Black_question_mark.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Calendar-Icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\companylogo.svg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Contact-Support-Icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\dashboard 1.svg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Google-Map-Icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Imageperson.webp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\ImagePersonIcon.svg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\office_GrayandWhite colored.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\OrangeApplicationIcon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\OrangeDashboardIcon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\OrangeProfileIcon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\profile.svg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\realcompanylogo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\support.svg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Telephone-Support.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\TrashBin.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\wallpaper.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="realcompanylogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Payslips\" />
+  </ItemGroup>
+
+</Project>
